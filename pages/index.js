@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Wrapper } from '../layout/Wrapper'
-
+import {Hero} from '../components/Hero'
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
 
     <Wrapper>
       <section>
-          <h1>Coders Agora</h1>
+          <Hero></Hero>
           {/**Ruteado con link */}
           <Link href='/Blog'>
             <a> Blog</a>
