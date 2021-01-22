@@ -22,3 +22,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* LAYOUT CONFIG */
+
+.wrapper > * {
+  grid-column: 2;
+}
+
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / 4;
+}
+
+.full-bleed img{
+  max-height: 60vh;
+  object-fit: cover;
+}
